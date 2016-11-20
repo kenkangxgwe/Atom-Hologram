@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RpDpBox1.Text" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="DpPreview.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="DataPrepDetailsBox.Text" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="RpDpEflBrowseButton.Text" xml:space="preserve">
+    <value>浏览 (&amp;B)</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RpDpSaveFolderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 12</value>
+  </data>
+  <data name="RpDpSaveFolderLabel.Text" xml:space="preserve">
+    <value>选择输出数据文件夹</value>
+  </data>
+  <data name="RpDpNfsSaveFolderButton.Text" xml:space="preserve">
+    <value>浏览 (&amp;B)</value>
+  </data>
+  <data name="RpDpNfsUseColumn.HeaderText" xml:space="preserve">
+    <value>采用</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RpDpNfsUseColumn.Width" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="RpDpNfsDistanceColumn.HeaderText" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="RpDpNfsDistanceColumn.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RpDpNfsDirectoryColumn.HeaderText" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="RpDpNfsDirectoryColumn.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RpDpNfsFileNameColumn.HeaderText" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="RpDpNfsFileNameColumn.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="RpDpNfsStartNoColumn.HeaderText" xml:space="preserve">
+    <value>首号</value>
+  </data>
+  <data name="RpDpNfsStartNoColumn.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RpDpNfsEndColumn.HeaderText" xml:space="preserve">
+    <value>尾号</value>
+  </data>
+  <data name="RpDpNfsMergedFileColumn.HeaderText" xml:space="preserve">
+    <value>已合并文件</value>
+  </data>
+  <data name="RpDpNfsMergedFileColumn.Width" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="RpDpNfsMergeButton.Text" xml:space="preserve">
+    <value>合并 保存 (&amp;M)</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RpDpEflRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="RpDpEflRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RpDpEflRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 16</value>
+  </data>
+  <data name="RpDpEflRadioButton.Text" xml:space="preserve">
+    <value>继续还原现有波前数据 (.mat) (&amp;C)</value>
+  </data>
+  <data name="RpDpNfsRatioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RpDpNfsRatioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 16</value>
+  </data>
+  <data name="RpDpNfsRatioButton.Text" xml:space="preserve">
+    <value>从原始数据(.xls)生成新的波前数据 (&amp;R)</value>
+  </data>
+  <data name="RpDpNfsRetrieveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 6</value>
+  </data>
+  <data name="RpDpNfsRetrieveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="RpDpNfsRetrieveButton.Text" xml:space="preserve">
+    <value>开始还原 &gt;</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>请选择要预览的 .mat 文件</value>
+  </data>
+  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>使用现有波前数据 (.mat)</value>
+  </data>
+  <data name="toolStripStatusTip.Text" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="toolStripStatusSpring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 17</value>
+  </data>
+  <data name="toolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="toolStripStatusLabel.Text" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="MenuBarFile.Text" xml:space="preserve">
+    <value>文件 (&amp;F)</value>
+  </data>
+  <data name="MenuBarNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="MenuBarNew.Text" xml:space="preserve">
+    <value>新建 (&amp;N)</value>
+  </data>
+  <data name="MenuBarFileOpen.Text" xml:space="preserve">
+    <value>打开 (&amp;O)</value>
+  </data>
+  <data name="MenuBarFileSave.Text" xml:space="preserve">
+    <value>保存配置文件 (&amp;S)</value>
+  </data>
+  <data name="MenuBarFileExit.Text" xml:space="preserve">
+    <value>退出 (&amp;X)</value>
+  </data>
+  <data name="MenuBarOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 21</value>
+  </data>
+  <data name="MenuBarOption.Text" xml:space="preserve">
+    <value>选项 (&amp;O)</value>
+  </data>
+  <data name="MenuBarLocalization.Text" xml:space="preserve">
+    <value>语言设置 (&amp;L)</value>
+  </data>
+  <data name="MenuBarLocalizationEnglish.Text" xml:space="preserve">
+    <value>English (Default)</value>
+  </data>
+  <data name="MenuBarLocalizationChineseSimplified.Text" xml:space="preserve">
+    <value>中文（简体）</value>
+  </data>
+  <data name="MenuBarHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="MenuBarHelp.Text" xml:space="preserve">
+    <value>帮助 (&amp;H)</value>
+  </data>
+  <data name="MenuBarHelpAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="MenuBarHelpAbout.Text" xml:space="preserve">
+    <value>关于 (&amp;A)</value>
+  </data>
+  <data name="welcomeTabPage.Text" xml:space="preserve">
+    <value>0. 欢迎界面</value>
+  </data>
+  <data name="welcomeInfoTextBox.Text" xml:space="preserve">
+    <value>欢迎使用基于 Matlab 代码实现的通用全息图生成器！</value>
+  </data>
+  <data name="welcomeTitleTextBox.Text" xml:space="preserve">
+    <value>全息图还原程序</value>
+  </data>
+  <data name="RetrievePhaseTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="RetrievePhaseTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 461</value>
+  </data>
+  <data name="RetrievePhaseTabPage.Text" xml:space="preserve">
+    <value>1. 还原相位</value>
+  </data>
+  <data name="ConstructHologramTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ConstructHologramTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 461</value>
+  </data>
+  <data name="ConstructHologramTabPage.Text" xml:space="preserve">
+    <value>2. 构建全息图</value>
+  </data>
+  <data name="RpDpNfsSaveFileBrowser.Filter" xml:space="preserve">
+    <value>Matlab Mat格式文件 (*.mat)|*.mat</value>
+  </data>
+  <data name="RpDpNfsSaveFileBrowser.Title" xml:space="preserve">
+    <value>设置保存波前文件路径</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+</root>
