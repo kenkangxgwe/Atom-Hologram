@@ -313,6 +313,9 @@ namespace HologramGenerator
                 SavePath = RpEfsSavePath;
             }
 
+            if (!UpdateLastIteration(RpEfsSavePath + '\\' + RpIsSettings["filename"]).IsCompleted)
+                return;
+
             RpRetrieveButton.Enabled = false;
             RpDpSavePathPanel.Enabled = false;
             RpIsDataGridView.ReadOnly = true;
@@ -320,7 +323,6 @@ namespace HologramGenerator
             RpDpFileListControlPanel.Enabled = false;
             RpStopButton.Enabled = true;
 
-            UpdateLastIteration(RpEfsSavePath + '\\' + RpIsSettings["filename"]);
             RpIsLastSavePointTextBox.Text = RpIsSettings["lastiteration"];
             RpIsSettings = RpDataSet.Tables["Settings"].ToDictionary();
             RpIsProgress_Update(int.Parse(RpIsLastSavePointTextBox.Text));

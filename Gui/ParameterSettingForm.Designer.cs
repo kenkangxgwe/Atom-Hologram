@@ -186,7 +186,7 @@
             this.PSCancelButton.Name = "PSCancelButton";
             this.PSCancelButton.Size = new System.Drawing.Size(75, 23);
             this.PSCancelButton.TabIndex = 8;
-            this.PSCancelButton.Text = "&Quit";
+            this.PSCancelButton.Text = "&Close";
             this.PSCancelButton.UseVisualStyleBackColor = true;
             this.PSCancelButton.Click += new System.EventHandler(this.PSCancelButton_Click);
             // 
