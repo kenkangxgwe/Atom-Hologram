@@ -231,12 +231,12 @@ namespace HologramGenerator
                 MatFile ExistMatFile = null;
                 if (!File.Exists(Dest + ".mat"))
                 {
-                    RpIsSettings.Add("lastiteration", "0");
+                    RpIsSettings["lastiteration"] = "0";
                 }
                 else
                 {
                     ExistMatFile = new MatFile(Dest);
-                    RpIsSettings.Add("lastiteration", ExistMatFile.LastIteration());
+                    RpIsSettings["lastiteration"] = ExistMatFile.LastIteration();
                 }
 
                 if (RpIsProgressTextBox.InvokeRequired)
@@ -320,6 +320,7 @@ namespace HologramGenerator
             RpDpFileListControlPanel.Enabled = false;
             RpStopButton.Enabled = true;
 
+            UpdateLastIteration(RpEfsSavePath + '\\' + RpIsSettings["filename"]);
             RpIsLastSavePointTextBox.Text = RpIsSettings["lastiteration"];
             RpIsSettings = RpDataSet.Tables["Settings"].ToDictionary();
             RpIsProgress_Update(int.Parse(RpIsLastSavePointTextBox.Text));
@@ -341,7 +342,8 @@ namespace HologramGenerator
             {
                 RpStopButton.Enabled = false;
                 RpRetrieveButton.Enabled = true;
-                RpDpSplitContainer.Enabled = true;
+                RpDpSavePathPanel.Enabled = true;
+                RpIsDataGridView.ReadOnly = false;
                 RpDpFileListDataGridView.ReadOnly = false;
                 RpDpFileListControlPanel.Enabled = true;
             }

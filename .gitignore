@@ -1,3 +1,7 @@
 /MatlabCaller/
 */bin/
 */obj/
+!/Gui/bin/Debug/MatlabDlls/Default/MatlabFunction.dll
+!/Gui/bin/Debug/MatlabDlls/Default/
+!/Gui/bin/Debug/Pictures/*
+!/Gui/bin/Debug/Config/*

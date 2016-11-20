@@ -58,7 +58,7 @@ namespace GlobalMethod
                     return "DefaultMatlabCodeFolder".OriginPath() + "\\CodeList.xml";
 
                 case "DefaultMatlabCodeFolder":
-                    return @"C:\Users\admin\Documents\Visual Studio 2013\Projects\MatlabCode";
+                    return Properties.Settings.Default.MatlabCodePath;
 
                 case "DefaultMatlabDllFolder":
                     return "Program".OriginPath() + "\\MatlabDlls\\Default";
@@ -70,7 +70,7 @@ namespace GlobalMethod
                     return "ProgramConfig".OriginPath() + "\\RpSettings.xml";
 
                 case "DefaultMccLocation":
-                    return @"C:\Program Files\MATLAB\R2015b\bin\mcc.bat";
+                    return Properties.Settings.Default.MccPath;
 
                 default:
                     {

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PictureViewerControl));
             this.FigureBox = new PictureViewer.InterpolationPictureBox();
             this.AxisYPanel = new System.Windows.Forms.Panel();
             this.AxisXPanel = new System.Windows.Forms.Panel();
@@ -107,7 +106,7 @@
             // ColorBarBox
             // 
             this.ColorBarBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ColorBarBox.Image = ((System.Drawing.Image)(resources.GetObject("ColorBarBox.Image")));
+            this.ColorBarBox.Image = global::PictureViewer.Properties.Resources.ParulaColorbar;
             this.ColorBarBox.Location = new System.Drawing.Point(0, 0);
             this.ColorBarBox.Name = "ColorBarBox";
             this.ColorBarBox.Size = new System.Drawing.Size(28, 407);

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GlobalMethod.Properties" GeneratedClassName="Path">
+  <Profiles />
+  <Settings>
+    <Setting Name="MccPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\MATLAB\R2015b\bin\mcc.bat</Value>
+    </Setting>
+    <Setting Name="MatlabCodePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\admin\Documents\Visual Studio 2013\Projects\MatlabCode</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

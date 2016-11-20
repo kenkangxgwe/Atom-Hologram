@@ -63,9 +63,9 @@ namespace PictureViewer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Dist_7000_Pos_Whole {
+        internal static System.Drawing.Bitmap ParulaColorbar {
             get {
-                object obj = ResourceManager.GetObject("Dist_7000_Pos_Whole", resourceCulture);
+                object obj = ResourceManager.GetObject("ParulaColorbar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using MatlabFunction;
-using MathWorks.MATLAB.NET.Arrays;
-using MathWorks.MATLAB.NET.Utility;
-
-namespace HologramGenerator
+﻿namespace HologramGenerator
 {
     class MatFile
     {

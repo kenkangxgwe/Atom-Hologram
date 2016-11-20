@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.CodeLocationLabel = new System.Windows.Forms.Label();
             this.CodeLocationTextBox = new System.Windows.Forms.TextBox();
             this.FolderSelectButton = new System.Windows.Forms.Button();
@@ -101,6 +101,7 @@
             this.DetailTextBox.Multiline = true;
             this.DetailTextBox.Name = "DetailTextBox";
             this.DetailTextBox.ReadOnly = true;
+            this.DetailTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.DetailTextBox.Size = new System.Drawing.Size(435, 176);
             this.DetailTextBox.TabIndex = 3;
             // 
@@ -178,8 +179,8 @@
             // Exist
             // 
             this.Exist.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle4.NullValue = "Missing. Will apply default code.";
-            this.Exist.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.NullValue = "Missing. Will apply default code.";
+            this.Exist.DefaultCellStyle = dataGridViewCellStyle1;
             this.Exist.HeaderText = "Exist";
             this.Exist.Name = "Exist";
             this.Exist.ReadOnly = true;
